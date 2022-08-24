@@ -1,0 +1,103 @@
+/* style all elements */
+* {
+    box-sizing: border-box;
+    margin: 20px;
+}
+
+body {
+    background-color: rgb(229, 147, 160);
+    height: 30vh;
+}
+
+/* style any header tag */
+header {
+    border: 20px solid rgb(151, 71, 255);
+    height:200px;
+    position:inherit;
+}
+
+/* style only the elem with the menu id */
+#menu {
+    border: 5px solid rgb(0, 255, 21);
+    width: 70px;
+    padding: 20px;
+    float: right;
+}
+
+/* stlye only the elem with the logo id */
+#logo {
+    border: 5px solid magenta;
+    width: 70px;
+    padding: 20px;   
+    float: left;
+}
+
+h1 {
+    background-color: magenta;
+    margin: 5px;
+}
+
+span {
+    background-color: orange;
+}
+
+/* select an element with a class */
+.container {
+    height: 20vh;
+    background-color: aquamarine;
+    position: relative;
+}
+
+.container2 {
+    height: 50vh;
+    background-color: aquamarine;
+    position: relative;
+}
+
+h3:nth-child(1){
+    position: absolute;
+}
+
+h3:nth-child(2){
+    position: absolute;
+    right:0;
+}
+
+h3:nth-child(3){
+    position:absolute;
+    bottom: 0;
+}
+
+h3:nth-child(4){
+    position:absolute;
+    right:0;
+    bottom:0;
+}
+
+#absolute {
+    border: 10px dashed yellow;
+    width:45px;
+    height:45px;
+    background-color: blueviolet;
+    position: absolute;
+}
+
+
+#fixed {
+    border: 5px dashed blue;
+    width:35px;
+    height:35px;
+    background-color: indianred;
+    position: fixed;
+    right: 0;
+    z-index:1;
+}
+
+p {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    color: aliceblue;
+    /* display: inline-block; */
+    display: none;
+}

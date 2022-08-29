@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+
+}
+
+body {
+    width: 100%;
+    height:100%;
+    margin: 0;
+
+    
+}
+/*-----------------------------
+            Header
+-------------------------------*/
+header {
+    
+    height:100px;
+   
+}
+
+#logo {
+    width: 180px;
+    height: auto;
+    padding: 20px;
+  
+}
+
+/*--------------------------------
+        Spiced Welcome
+----------------------------------*/
+#spices{
+    position:relative;
+    object-fit: cover;
+}
+
+#start{
+    font-size: 48px;
+    text-shadow:whitesmoke;
+
+}
+
+
+button {
+    position: relative;
+    background-color:rgb(243, 202, 17, 0.938);
+    color: rgb(219, 137, 6);
+    border:2.5px solid rgb(219, 157, 6);
+    padding:2px 30px;
+    border-radius: 12px;
+    font-size: 18px;
+    text-decoration: none;
+    transition-duration: 0.10s;
+    cursor: pointer;
+}
+.button:hover {
+    border-radius: 15%;
+    
+  }
+
+button{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#cat {
+    width:40px;
+    height:40px;
+}
+
+#swim {
+    width:40px;
+    height:40px;
+}
+
+#world {
+    width:40px;
+    height:40px;
+}
+
+#columns {
+    width:40px;
+    height:40px;
+
+}
+
+.wrapper p{
+    font-size: 11px;
+}
+
+h4{
+    font-size: 13px;
+    }
+
+
+
+.container-info {
+    height: 600px;
+    position: relative;
+    background-color: lightgrey;
+    width: 50%;
+    padding: 10px;
+    height: 400px; 
+}
+
+footer{
+    font-size: 0.75rem;
+    background-color: rgb(60, 60, 60);
+    padding: 9px;
+    color: white;
+
+}
+
+/*--------------------------------
+        Add Dark Mode an Print
+----------------------------------*/
+
+@media print {
+    body {
+        background-color:white;
+    }
+}
+
+
+
+
+
+
+

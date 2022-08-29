@@ -19,10 +19,10 @@ var n = null;
 n === null; //true;
 
 typeof(NaN); //number
-console.log(typeof(NaN))
+console.log(typeof(NaN));
 
-NaN == NaN; //false
-NaN === NaN; //false
+//NaN == NaN; //false
+//NaN === NaN; //false
 
 isNaN(NaN); //true
 
@@ -42,9 +42,9 @@ function sum(num1, num2, num3) {
     console.log("mysum", mysum);
 }
 
-sum(1,2,3)
+sum(1,2,3);
 
 var text = "Hello sara you can spend:";
 var money = 10;
-var message = text + money + " €"
-console.log(message)
+var message = text + money + " €";
+console.log(message);

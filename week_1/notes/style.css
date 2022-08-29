@@ -4,6 +4,12 @@
     margin: 20px;
 }
 
+header {
+    border: 20px solid rgb(151, 71, 255);
+    height:200px;
+    position:inherit;
+}
+
 body {
     background-color: rgb(229, 147, 160);
     height: 30vh;

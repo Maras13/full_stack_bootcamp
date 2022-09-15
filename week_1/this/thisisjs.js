@@ -12,6 +12,4 @@ var ber = {
 
 ber.welcomeTo();
 
-function City(weather) {
-    this.
-}
+// second block: https://spiced.space/cayenne/this/

@@ -27,12 +27,11 @@ function getLessThanZero (array) {
 var sara = getLessThanZero([1, 2, -1, -90, 10]); 
 console.log(sara)
 
-// Exercise 3.
+// Exercise 1.
 
 function each (objOrArray, callback) {
     if (objOrArray === "object") {
-        for (var key in objOrArray) {
-            console.log(key, value);
+        for (var key in objOrArray) 
             callback(objOrArray[val], key)
             
         };
